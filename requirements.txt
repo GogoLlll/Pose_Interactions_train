@@ -1,0 +1,12 @@
+ultralytics==8.3.162
+torch==2.2.2+cu121
+torchvision==0.17.2+cu121
+numpy>=1.23
+scipy>=1.10
+pyyaml>=6.0
+opencv-python>=4.5
+Pillow>=9.0
+tqdm>=4.65
+matplotlib>=3.7
+seaborn>=0.12
+tensorboard>=2.12
