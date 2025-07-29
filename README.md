@@ -8,7 +8,7 @@ Pose_Interactions_train/
 ├── requirements.txt # Все зависимости
 ├── yolo11x-pose.pt # Базовая модель
 ├── tst_gpu.py
-├── dataset_1/
+├── dataset_3/
 │ ├── images/
 │ │ ├── train/
 │ │ └── val/
@@ -24,12 +24,12 @@ pip install -r requirements.txt
 ```
 
 После скачайте архив с датасетом, а так же модель для дообучения по
-[ссылке](https://disk.360.yandex.ru/d/EWEl_f9-zxpvYQ) и после распакуйте все как в струкутре выше.
+[ссылке](https://disk.360.yandex.ru/d/EWEl_f9-zxpvYQ) и после распакуйте dataet_3.7z и yolo11l-pose.pt все как в струкутре выше.
 После запустите `tst_gpu.py`, чтобы проверить видит ли окружение GPU, если нет, то скачайте PyTorch с поддержкой cuda на офф. сайте.
 
 В файле `data.yaml `
 ```
-path: C:\Users\garni\PycharmProjects\Pose_study_UseTech\dataset_1
+path: C:\Users\garni\PycharmProjects\Pose_study_UseTech\dataset_3
 
 train: images/train
 val: images/val
