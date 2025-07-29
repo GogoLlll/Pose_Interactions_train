@@ -5,12 +5,11 @@ def train_model():
 
     training_params = {
         'data': 'dataset_3/data.yaml',
-        'epochs': 100,
+        'epochs': 50,
         'imgsz': 960,
         'batch': 8,
         'dropout': 0.1,
         'weight_decay': 0.0005,
-        'patience': 20,
         'lr0': 0.001,
         'optimizer': 'AdamW',
         'cos_lr': True,
